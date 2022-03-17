@@ -1,11 +1,9 @@
 // forEach is a better way of looping through
-const items = ['item1', 'item2', 'item3'];
-const copy = [];
+const items = ['harvey', 'jack', 'ben'];
+let string = 'v';
 
 items.forEach(function (item) {
-  copy.push(item);
+  console.log(item.includes(string));
 });
-
-console.log(copy);
 
 // Pushed the items array into the copy empty array
