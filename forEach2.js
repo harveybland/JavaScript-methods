@@ -13,10 +13,12 @@ const items = [
   },
 ];
 
-let string = 'Harvey';
+let string = '22';
 
-items.forEach(function (item) {
-  item.address.forEach(function (item) {
-    console.log(item.street);
+items.forEach(function (item, index) {
+  console.log(index);
+  item.address.forEach(function (item, index) {
+    let a = item.street.includes(string);
+    console.log(a);
   });
 });

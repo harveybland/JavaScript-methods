@@ -2,8 +2,8 @@
 const items = ['harvey', 'jack', 'ben'];
 let string = 'v';
 
-items.forEach(function (item) {
-  console.log(item.includes(string));
+items.forEach(function (item, index) {
+  console.log(index);
 });
 
 // Pushed the items array into the copy empty array
